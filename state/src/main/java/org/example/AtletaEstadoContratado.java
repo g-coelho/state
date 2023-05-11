@@ -39,7 +39,7 @@ public class AtletaEstadoContratado extends AtletaEstado{
 
     public boolean competir(Atleta atleta){
         atleta.setEstado(AtletaEstadoCompetiu.getInstance());
-        return false;
+        return true;
     }
 
 
